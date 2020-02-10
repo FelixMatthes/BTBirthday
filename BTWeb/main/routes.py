@@ -1,10 +1,10 @@
 from flask import render_template, url_for, flash, redirect, Blueprint
-from forms import RegistrationForm, LoginForm
+from BTWeb.main.forms import RegistrationForm, LoginForm
 
 main = Blueprint('main', __name__)
 
 
-# @main.route('/')
+@main.route('/')
 @main.route('/home')
 def home():
     return render_template('home.html', titel='home')

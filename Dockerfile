@@ -13,4 +13,4 @@ COPY . /BTBirthday
 
 ENTRYPOINT [ "python3" ]
 
-CMD [ "BTBirthday.py" ]
+CMD [ "run.py" ]
