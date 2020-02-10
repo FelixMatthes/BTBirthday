@@ -10,6 +10,18 @@ Nice to know for building web apps with python.
 * source env/bin/activate
 * pip freeze > requirements.txt
 * pip install -r requirements.txt
+or use docker
+* docker build -t btbirthday:latest .
+* docker run -d -p 5000:5000 btbirthday
+* docker logs -f <mycontainer>
+* docker exec -it <mycontainer> bash
+
+## Database
+1. install flask-sqlalchemy
+
 
 ## History
 1. install Flask
+2. use Docker
+3. use flask blueprints for routes
+      
